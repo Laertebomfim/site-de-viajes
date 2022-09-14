@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "font";
+    src: url("/fonte/Signika.ttf") format("truetype");
+}
+:root{
+    --cor1:#42A1ED;
+    --cor2:#45D6F7;
+    --cor3:#49E0D4;
+    --cor4:#45F7B6;
+    --cor5:#42ED7E;
+    --fonte:"font";
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 98vh;
+    background: #000 url('/imagens/wallpaper006.jpg') center center no-repeat fixed;
+    
+}
