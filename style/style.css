@@ -49,3 +49,11 @@ header nav a:hover{
     background-color: rgba(188, 187, 187, 0.955);
 
 }
+  #pesquisa {
+    position: relative;
+
+}
+header img{
+    position: absolute;
+    top:1px;
+}    
