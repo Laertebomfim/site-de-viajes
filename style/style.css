@@ -9,7 +9,7 @@
     --cor3:#49E0D4;
     --cor4:#45F7B6;
     --cor5:#42ED7E;
-    --fonte:"font";
+    --fonte:"font", Arial, Helvetica, sans-serif ;
 }
 *{
     margin: 0%;
@@ -18,5 +18,34 @@
 body{
     height: 98vh;
     background: #000 url('/imagens/wallpaper006.jpg') center center no-repeat fixed;
-    
+    font-family: var(--fonte);
+    padding-top: 30px;
+}
+header{
+    max-width: 800px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+
+}
+header nav{
+    margin: auto;
+    max-width: 400px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 10%;
+    padding: 7px;
+    border: 5px solid rgba(188, 187, 187, 0.518);
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+header nav a:hover{
+    box-shadow: 1px 1px 1px #000;
+    background-color: rgba(188, 187, 187, 0.955);
+
 }
