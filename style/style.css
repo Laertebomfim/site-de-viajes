@@ -37,7 +37,7 @@ header nav{
 header nav a {
     text-decoration: none;
     color: #000000;
-    margin: 10%;
+    margin: 13%;
     padding: 7px;
     border: 5px solid rgba(188, 187, 187, 0.518);
     border-radius: 15px;
@@ -46,14 +46,51 @@ header nav a {
 }
 header nav a:hover{
     box-shadow: 1px 1px 1px #000;
-    background-color: rgba(188, 187, 187, 0.955);
-
+    background-color: #bcbbbbf4;
+    transition: 2s;
 }
-  #pesquisa {
+  div#pesquisa {
     position: relative;
-
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+input{
+    padding: 4px;
+    border-radius: 20px;
+    border: 2px solid #bcbbbbf4;
+    margin-left: 60px;
+}
+input:hover{
+    position: relative;
+    transition: 5s;
+    opacity: 0;
 }
 header img{
+    width: 20px;
+    height: 20px;
     position: absolute;
-    top:1px;
-}    
+    top:10%;
+    left: 23%;
+} 
+header h1{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+    max-width: 200px;
+    margin: auto;
+    line-height: 1.5em;
+    color: var(--cor1);
+}   
+header p{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    max-width: 500px;
+    color: #908f8ff4;
+}
+main{
+    max-width: 800px;
+    background-color: #FFF;
+    margin: auto;
+}
