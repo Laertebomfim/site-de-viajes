@@ -84,6 +84,7 @@ header h1{
 }   
 header p{
     margin: auto;
+    padding-bottom: 60px;
     text-align: center;
     padding-top: 20px;
     max-width: 500px;
@@ -93,4 +94,41 @@ main{
     max-width: 800px;
     background-color: #FFF;
     margin: auto;
+}
+main h2{
+    text-indent: 2em;
+    line-height: 1.9em;
+    color: var(--cor5);
+    font-weight: bold;
+}
+main p{
+    padding-left:5%;
+    padding: 5%;
+    color: #908f8ff4;
+    line-height: 1.5em;
+}
+main a{
+    display:block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    background-color: var(--cor1);
+    width: 120px;
+    border-radius: 20px;
+    color: var(--cor4);
+    font-weight: bolder;
+    text-shadow: .1px .1px  3px #000;
+}
+main a:hover{
+    background-color: #fff;
+    border: 3px solid #98979796;
+    color: #98979796;
+    text-shadow: 0px 0px 0px #fff;
+}
+main #amazonia div{
+    height: 400px;
+    background: #000 url('/imagens/Amazonia.jpg') center top repeat scroll ;
+    background-size: 100%;
 }
