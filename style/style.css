@@ -17,9 +17,15 @@
 }
 body{
     height: 98vh;
-    background: #000 url('/imagens/wallpaper006.jpg') center center no-repeat fixed;
+    background: #fff url('../imagens/Rio.png') center bottom no-repeat  fixed;
+    background-size: cover;
     font-family: var(--fonte);
-    padding-top: 30px;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px solid transparent;
+    margin: auto auto;
+    
 }
 header{
     max-width: 800px;
@@ -37,7 +43,7 @@ header nav{
 header nav a {
     text-decoration: none;
     color: #000000;
-    margin: 13%;
+    margin: 11%;
     padding: 7px;
     border: 5px solid rgba(188, 187, 187, 0.518);
     border-radius: 15px;
@@ -129,6 +135,44 @@ main a:hover{
 }
 main #amazonia div{
     height: 400px;
-    background: #000 url('/imagens/Amazonia.jpg') center top repeat scroll ;
-    background-size: 100%;
+    background: #000 url('../imagens/Amazonia.jpg') center top no-repeat fixed ;
+    background-size: 100% 100%;
+}
+main #cancoún div{
+    height: 400px;
+    background: #fff url('../imagens/concoum.png') center top no-repeat fixed;
+    background-size: 100% 100%;
+}
+main #rio div{
+    height: 400px;
+    background: #fff url('../imagens/Rio2.png') center top no-repeat fixed;
+    background-size: 100% 100%;
+
+}
+aside{
+    background-color: rgba(182, 181, 181, 0.434);
+    margin: 20px 20px 0px 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+aside h3{
+    color: var(--cor4);
+    padding: 20px;
+    margin: 30px 0px 30px 0px;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+aside ul{
+    list-style: inside;
+    columns: 2;
+}
+aside ul li{
+    list-style-type: "\1F334\00a0\00a0";
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    /* muda o texto ; decoration  */
+}
+#espasso{
+    height: 30px;
+    width: 100%;
 }
