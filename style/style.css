@@ -37,13 +37,14 @@ header{
 header nav{
     margin: auto;
     max-width: 400px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 header nav a {
+    display: inline-block;
     text-decoration: none;
     color: #000000;
-    margin: 11%;
+    margin: 5% 10% 0px 13%  ;
     padding: 7px;
     border: 5px solid rgba(188, 187, 187, 0.518);
     border-radius: 15px;
@@ -102,10 +103,11 @@ main{
     margin: auto;
 }
 main h2{
-    text-indent: 2em;
+    text-indent: 1em;
     line-height: 1.9em;
     color: var(--cor5);
     font-weight: bold;
+    padding-top: 20px;
 }
 main p{
     padding-left:5%;
@@ -228,11 +230,12 @@ footer a#twi{
     border-radius: 5px;
     text-align: center;
     color: #fff;
+    padding-right: 20px;
 }
 footer a#twi img{
     width: 30px;
     height: 30px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 footer a#ins{
     display: block;
@@ -242,12 +245,14 @@ footer a#ins{
     font-size: 1.5em;
     color: #fff;
     border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+
 }
 footer a#ins img{
     width: 30px;
     height: 30px;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: px;
 }
 #fundo{
     height: 90px;
