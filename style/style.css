@@ -189,16 +189,18 @@ footer{
     max-width: 800px ;
     background-color: rgb(156, 156, 156);
     margin: auto;
+    border-radius: 0px 0px 20px 20px;
+
     
 }
 footer p{
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
     color: #fff;
     font-size: 1em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
-    padding: 10px;
+    padding-bottom: 40px;
 }
 
 footer a#face{
@@ -208,11 +210,13 @@ footer a#face{
     padding: 10px ;
     background-color: #1877f2;
     text-align: center;
+    color: #fff;
 }
 
 footer a#face img{
     width: 30px;
     height: 30px;
+    padding-right: 10px;
 
 }
 footer a#twi{
@@ -223,12 +227,28 @@ footer a#twi{
     font-size: 1.5em;
     border-radius: 5px;
     text-align: center;
+    color: #fff;
 }
 footer a#twi img{
     width: 30px;
     height: 30px;
+    padding-right: 10px;
 }
 footer a#ins{
     display: block;
-    background-image: radial-gradient(circle,#fed97c, #a136b6, #4d61d2);
+    background-image: linear-gradient(to right,#fed97c, #a136b6, #4d61d2);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+}
+footer a#ins img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#fundo{
+    height: 90px;
 }
